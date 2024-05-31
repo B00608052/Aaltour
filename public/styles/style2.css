@@ -1,0 +1,404 @@
+.route-page {
+  background-image: url(../images/OLD_PAPER_TEXTURE.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.route-page-container {
+  padding-top: 10vh;
+  width: 90vw;
+  max-width: 900px;
+  /* outline: solid 5px red; */
+}
+.h2 {
+  font-weight: bolder;
+  font-size: 100px;
+}
+.col-6 {
+  /* outline: solid 5px red; */
+}
+#map {
+  width: 98%;
+  height: 40vh;
+  border-radius: 16px;
+  margin: 1%;
+}
+.scoreBtn {
+  height: 5vh;
+  min-height: 40px;
+  text-align: right;
+}
+.scoreBtnFrame {
+  text-align: right;
+}
+.routeSpotTitle {
+  text-align: right;
+}
+
+.heartIcon {
+  height: 3vh;
+  min-height: 24px;
+}
+.heartIcon img {
+  display: inline-block;
+}
+.addToMyFavorite:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+.addToMyFavorite {
+  transition: 0.4s ease;
+}
+
+.firstRouteSitePic {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  background-size: auto 110%;
+  height: 31vh;
+  margin: 1.5vh;
+  /* outline: solid 5px red; */
+  transition: 0.4s ease;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.smallRouteSitePic {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 15vh;
+  margin: 1.5vh;
+  /* outline: solid 5px red; */
+  border-radius: 4px;
+  object-fit: cover;
+}
+.smallRouteSitePic1 {
+  background-size: cover;
+  background-size: auto 110%;
+  width: 100%;
+  height: 15vh;
+  margin: 1.5vh;
+  /* outline: solid 5px red; */
+  transition: 0.4s ease;
+}
+.smallRouteSitePic2 {
+  background-size: cover;
+  background-size: auto 110%;
+  width: 100%;
+  height: 15vh;
+  margin: 1.5vh;
+  /* outline: solid 5px red; */
+  transition: 0.4s ease;
+}
+.firstRouteSitePic:hover,
+.smallRouteSitePic1:hover,
+.smallRouteSitePic2:hover {
+  background-size: auto 130%;
+  transition: 0.4s ease;
+}
+.routeSpotIntro {
+  height: 27vh;
+  overflow: scroll;
+  width: 96%;
+  margin: auto;
+  padding: 3%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.104);
+}
+.shareCommentBtn,
+.arrivedBtn {
+  height: 10vh;
+  margin: 1vh;
+  margin-top: 3vh;
+  width: 100%;
+  text-align: center;
+  border-radius: 80px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.shareCommentBtn {
+  border: 5px #a3b72c solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: #a3b72c;
+  transition: 0.4s ease;
+}
+.arrivedBtn {
+  border: 5px #a3b72c solid;
+  background-color: #a3b72c;
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+.arrivedBtn:hover {
+  border: 5px #a3b72c solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: #a3b72c;
+  transition: 0.4s ease;
+}
+.shareCommentBtn:hover {
+  border: 5px #a3b72c solid;
+  background-color: #a3b72c;
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+
+.siteAccessPic img {
+  width: 90%;
+  margin: 3%;
+  margin-top: 8%;
+  transition: 0.4s ease;
+}
+.siteAccessPic img:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease;
+}
+/* Route1 所有sites */
+.routeMap {
+  width: 100%;
+}
+.siteBtn img {
+  height: auto;
+  width: 100%;
+  /* outline: 5px red solid; */
+  margin-top: 7%;
+  border: 3px solid white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s ease;
+}
+.siteBtn span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.startTourBtn {
+  border: 5px #a3b72c solid;
+  background-color: #a3b72c;
+  color: #ffffff;
+  transition: 0.4s ease;
+  height: 10vh;
+  margin: 1vh;
+  margin-top: 3vh;
+  width: 96%;
+  text-align: center;
+  border-radius: 80px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.startTourBtn:hover {
+  border: 5px #a3b72c solid;
+  background-color: rgba(255, 255, 255, 0);
+  color: #a3b72c;
+  transition: 0.4s ease;
+}
+.siteBtn img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease;
+}
+.firstRouteSitePic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.smallRouteSitePic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#directionsPanel {
+  height: 22vh;
+  overflow: scroll;
+}
+
+/* 會員註冊頁 */
+.memberRegisterSection {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/memberPage/memberpageBg.png);
+  background-size: cover;
+  background-position: center center;
+}
+.memberRegisterBox {
+  width: 90vw;
+  max-width: 540px;
+  border-radius: 20px;
+  background-color: #ffffffdd;
+  padding: 40px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.memberRegisterBox h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+.signinHint {
+  margin: auto;
+  text-align: center;
+}
+#registerBtn {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+/* 會員註冊頁結束 */
+
+/* 會員登入 */
+.forgetBtn {
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+  /* outline: 5px red solid; */
+}
+.blank {
+  width: 60%;
+  display: inline-block;
+}
+#loginBtn {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 32px;
+}
+#loginBtn:hover,
+#registerBtn:hover {
+  background-color: rgba(255, 255, 255, 0.948);
+  color: #4caf50;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+}
+/* 會員登入結束 */
+
+/* route whole spots page */
+.image-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.small-image {
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 7%;
+  transition: 0.4s ease;
+}
+
+.popup img {
+  max-width: 100%;
+  max-height: 100%;
+  outline: 5px white solid;
+  box-shadow: 0px 5px 36px rgba(0, 0, 0, 0.25);
+}
+
+.close {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* My Aaltour Profile */
+#profile_favorites_pic {
+  width: 95%;
+  margin: 2.5%;
+  background-image: url(../images/myProfilePage/profile_favorites_pic.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 30vh;
+  min-height: 330px;
+}
+#profile_info_pic {
+  width: 95%;
+  margin: 2.5%;
+  background-image: url(../images/myProfilePage/profile_info_pic.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 30vh;
+  min-height: 330px;
+}
+#profile_achievements_pic {
+  width: 95%;
+  margin: 2.5%;
+  background-image: url(../images/myProfilePage/profile_achievements_pic.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 30vh;
+  min-height: 330px;
+}
+.aaltour_profile_btn {
+  border-radius: 20px;
+  padding-top: 0.6rem;
+  transition: 0.5s ease;
+}
+.aaltour_profile_btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+/* 完成所有路線後 */
+
+#congrats {
+  width: 100vw;
+  height: 100vh;
+  background-color: #a2b72cce;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#congratFrame {
+  position: fixed;
+  /* outline: red 5px solid; */
+  margin: auto;
+  top: 15%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+}
+#congrats img {
+  width: 80%;
+  max-width: 720px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+.anotherBtn {
+  width: 80%;
+  max-width: 420px;
+  margin: auto;
+  color: rgb(162, 183, 44);
+  background-color: white;
+}
+.anotherBtn:hover {
+  transform: scale(1.1);
+  color: rgb(162, 183, 44);
+  background-color: white;
+  cursor: pointer;
+}
+.anotherBtnFrame {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: -20px;
+}

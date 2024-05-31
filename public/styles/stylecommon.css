@@ -1,0 +1,45 @@
+.page-bg {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.page-container {
+  padding-top: 10vh;
+  width: 90vw;
+  max-width: 900px;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+.vh-75 {
+  height: 75vh;
+}
+.vh-25 {
+  height: 25vh;
+}
+.showoutline {
+  /* outline: solid 1px red; */
+}
+/* 两端对齐 */
+.text-justify {
+  text-align: justify;
+}
+/* 缩进两格 */
+.text-indent-2 {
+  text-indent: 2em;
+}
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 使用者登入成功後的招呼 */
+.welcome{
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  line-height: 38px;
+}

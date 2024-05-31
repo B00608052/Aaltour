@@ -1,0 +1,160 @@
+.biggestfont {
+  font-size: calc(3.9rem + 0.9vw);
+}
+@media (max-width: 768px) {
+  .biggestfont {
+    font-size: 3rem; /* 小屏幕下的字体大小 */
+  }
+}
+
+.biggerfont {
+  font-size: calc(3rem + 0.9vw);
+}
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  z-index: 2;
+}
+
+.cardtittlefont {
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .cardtittlefont {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 576px) {
+  .cardtittlefont {
+    font-size: 1rem;
+  }
+}
+
+.cardtextfont {
+  font-size: 1rem;
+}
+@media (max-width: 992px) {
+  .cardtextfont {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .cardtextfont {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  .cardtextfont {
+    font-size: 0.7rem;
+  }
+}
+
+.navbar-bg {
+  background-color: black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  position: relative; /* Ensure position relative for z-index to work */
+}
+.multi-line-link {
+  white-space: nowrap; /* Prevent line breaks in the middle of the link */
+  display: inline-block; /* Make the link behave like a block element but still inline */
+  color: #ef1717; /* Link color, adjust as needed */
+  text-decoration: none; /* Remove underline, adjust as needed */
+}
+.page-container-nopt {
+  width: 90vw;
+  max-width: 900px;
+}
+.page-container-nopt-mw-12 {
+  padding-top: 4%;
+  width: 90vw;
+  max-width: 1100px;
+}
+
+.routes-pick-btn-sm {
+  padding: 0.5rem 0.5rem; /* Adjust padding as needed */
+  font-size: 1.8rem; /* Adjust font size as needed */
+  font-weight: 700;
+  line-height: 3dvh; /* Adjust line height as needed */
+  text-align: start;
+  /* Add any additional styles as needed */
+}
+.routes-pick-btn-sm::first-line {
+  font-size: 0.875rem;
+}
+.routes-pick-btn-sm::first-line + br {
+  display: none;
+}
+
+.routes-pick-btn-sm:hover {
+  transform: scale(1.1);
+  color: #a3b72c;
+  transition: 0.6s ease;
+}
+
+.border-10 {
+  border: 10px solid #fff;
+}
+
+.card-width {
+  width: 27vw;
+}
+
+.bg-white-opacity-37 {
+  background: rgba(255, 255, 255, 0.37);
+}
+.bg-white-opacity-90 {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background: #a2b72ce8 !important;
+}
+
+.bg-themegreen {
+  background-color: #a3b72c;
+}
+
+.icon-wrapper {
+  background-color: #a3b72c; /* 设置背景颜色为黑色 */
+  /* border: 2px solid white; 设置边框为2像素白色实线 */
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+}
+
+.leaderboard-rank-font {
+  color: #a3b72c;
+  font-weight: bold;
+}
+
+.drk::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* 呈修改 */
+.routePickContaoiner{
+  max-width: 860px;
+}
+.card{
+  --bs-card-border-color: none;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-bg: none;
+  --bs-card-color: white;
+  transition: ease 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: ease 0.5s;
+  cursor: pointer;
+}
